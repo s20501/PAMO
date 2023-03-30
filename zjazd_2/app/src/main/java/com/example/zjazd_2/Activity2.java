@@ -179,21 +179,6 @@ public class Activity2 extends AppCompatActivity {
             total = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
         }
 
-//         Check which radio button was clicked
-//        switch (view.getId()) {
-//            case R.id.rid1:
-//                if (checked) {
-//                    total = 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
-//                }
-//
-//                break;
-//            case R.id.rid2:
-//                if (checked) {
-//                    total = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
-//                }
-//
-//                break;
-//        }
         totalTextView.setText(String.format(total + ""));
     }
 
@@ -203,7 +188,7 @@ public class Activity2 extends AppCompatActivity {
 
         radioButton = findViewById(radioId);
 
-        Toast.makeText(this, "Selected Radio Button: " + radioButton.getText(),
+        Toast.makeText(this, "Wybrana opcja: " + radioButton.getText(),
                 Toast.LENGTH_SHORT).show();
     }
 

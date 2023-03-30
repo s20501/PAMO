@@ -4,13 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.zjazd_2.Activity3">
-
+    <Button
+        android:id="@+id/button_przepis_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zmień przepis" />
     <TextView
+        android:id="@+id/text_przepis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text ="@string/paragraph" />
+
 
 
 </RelativeLayout>
