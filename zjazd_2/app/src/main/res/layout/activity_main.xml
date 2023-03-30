@@ -6,11 +6,6 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:orientation="vertical" >
-
-
-
-
-
     <Button
         android:id="@+id/button_przepis"
         android:layout_width="wrap_content"
