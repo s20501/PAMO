@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.zjazd_2.Chart">
 
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/barchart"/>
+
 
 
 
