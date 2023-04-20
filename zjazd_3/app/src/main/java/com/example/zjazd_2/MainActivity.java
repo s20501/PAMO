@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button button_quiz;
 
-    private Button button_game;
+    private Button button_chart;
 
 
 
@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         button_callory = (Button) findViewById(R.id.button_callory);
         button_przepis = (Button) findViewById(R.id.button_przepis);
         button_quiz = (Button) findViewById(R.id.button_quiz);
+        button_chart = (Button) findViewById(R.id.button_chart);
+
 
 
         button_BMI.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
                 openQuiz();
             }
         });
+        button_chart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openChart();
+            }
+        });
     }
 
     public void openActivity1() {
@@ -72,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openQuiz() {
         Intent intent = new Intent(this, Quiz.class);
+        startActivity(intent);
+    }
+
+    public void openChart() {
+        Intent intent = new Intent(this, Chart.class);
         startActivity(intent);
     }
 }

@@ -32,7 +32,7 @@
         android:text="Quiz" />
 
     <Button
-        android:id="@+id/button_game"
+        android:id="@+id/button_chart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Wykres BMI" />
