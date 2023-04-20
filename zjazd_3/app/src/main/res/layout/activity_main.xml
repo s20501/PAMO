@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_przepis"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="Pokaż przepis" />
+
+    <Button
+        android:id="@+id/button_BMI"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="Oblicz BMI" />
+
+    <Button
+        android:id="@+id/button_callory"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="Oblicz kalorie" />
+
+    <Button
+        android:id="@+id/button_quiz"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz" />
+
+    <Button
+        android:id="@+id/button_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wykres BMI" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sport" />
+
+
+
+</LinearLayout>

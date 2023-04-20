@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="enter_weight">Waga</string>
+    <string name="enter_height">Wysokość</string>
+    <string name="bmi">BMI</string>
+    <string name="enter_age">Wiek</string>
+    <string name="energy_burn">Spożycie kalorii</string>
+    <string name="paragraph">
+
+Sałatka z grillowanym kurczakiem i awokado \n
+
+Składniki: \n
+
+2 filety z kurczaka \n
+1 awokado \n
+2 pomidory \n
+1 ogórek \n
+1 cebula \n
+1 czerwona papryka \n
+2 łyżki oliwy z oliwek \n
+1 łyżka soku z cytryny \n
+sól i pieprz do smaku \n
+Instrukcje: \n
+
+Rozgrzej grill lub patelnię grillową. \n
+
+Pokrój kurczaka w paski, posól i oprósz pieprzem. Grilluj około 5-7 minut z każdej strony, aż będzie gotowy. \n
+
+Pokrój awokado, pomidory, ogórek, cebulę i paprykę w kostkę i włóż do dużej miski. \n
+
+Dodaj oliwę z oliwek, sok z cytryny, sól i pieprz do smaku. Delikatnie wymieszaj. \n
+
+Na koniec dodaj grillowanego kurczaka do sałatki. \n
+
+Podawaj na talerzu lub w misce. \n
+
+
+    </string>
+
+    <string name="paragraph_2">
+        Kuskus z pieczonymi warzywami i fetą \n
+
+Składniki: \n
+
+1 szklanka kuskusu \n
+2 czerwone papryki \n
+1 cukinia \n
+1 bakłażan \n
+1 cebula \n
+2 ząbki czosnku \n
+3 łyżki oliwy z oliwek \n
+sól i pieprz do smaku \n
+100 g fety \n
+Instrukcje: \n
+
+Rozgrzej piekarnik do 200 stopni C. \n
+
+Pokrój papryki, cukinię i bakłażana w kostkę, a cebulę w piórka. \n
+
+Wymieszaj warzywa w dużej misce z czosnkiem, oliwą z oliwek, solą i pieprzem. Przełóż do naczynia żaroodpornego i piecz przez około 25 minut, aż będą miękkie i lekko zrumienione.\n
+
+W międzyczasie ugotuj kuskus zgodnie z instrukcjami na opakowaniu.\n
+
+Gdy warzywa i kuskus będą gotowe, wymieszaj je razem w dużej misce.\n
+
+Dodaj feta i delikatnie wymieszaj.\n
+
+Podawaj na ciepło lub zimno.\n
+    </string>>
+</resources>
